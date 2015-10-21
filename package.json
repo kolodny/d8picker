@@ -1,0 +1,22 @@
+{
+  "name": "d8picker",
+  "version": "1.0.0",
+  "description": "browserified version of https://github.com/joshsalverda/datepickr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolodny/d8picker.git"
+  },
+  "keywords": [
+    "datepicker"
+  ],
+  "author": "Moshe Kolodny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolodny/d8picker/issues"
+  },
+  "homepage": "https://github.com/kolodny/d8picker#readme"
+}
