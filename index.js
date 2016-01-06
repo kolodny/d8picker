@@ -52,7 +52,8 @@ datepickr.init = function (element, instanceConfig) {
             altInput: null,
             minDate: null,
             maxDate: null,
-            shorthandCurrentMonth: false
+            shorthandCurrentMonth: false,
+            onSelect: function() {}
         },
         calendarContainer = document.createElement('div'),
         navigationCurrentMonth = document.createElement('span'),
@@ -346,6 +347,7 @@ datepickr.init = function (element, instanceConfig) {
                 }
 
                 self.element.value = formatDate(self.config.dateFormat, currentTimestamp);
+                self.config.onSelect(self.element, self.altInput);
 
                 close();
                 buildDays();

@@ -1,6 +1,6 @@
 {
   "name": "d8picker",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "browserified version of https://github.com/joshsalverda/datepickr",
   "main": "index.js",
   "scripts": {
